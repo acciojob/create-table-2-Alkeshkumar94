@@ -3,6 +3,7 @@ function createTable() {
 	let rn=prompt("Input number of rows");
 	let cn=prompt("Input number of colums");
 	let table=document.getElementById("myTable");
+	  table.innerHTML = "";
     for(let i=0;i<rn;i++){
 			let row=table.insertRow();
 		for(let j=0;j<cn;j++){
